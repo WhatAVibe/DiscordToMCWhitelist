@@ -29,6 +29,8 @@ A Discord bot that allows users to whitelist themselves for a Minecraft server w
 *   `RCON_HOST`: Host IP or hostname of the Minecraft server
 *   `RCON_PORT`: RCON port of the Minecraft server
 *   `RCON_PASSWORD`: RCON password of the Minecraft server
+*   `ROLE_ID` Used for giving "Whitelist" role or whatever you want it to be after verification
+*   `ROLE_NAME` Admin role name for bot usage in any channel and list current whitelist
 
 ## Usage
 -----
@@ -46,6 +48,8 @@ A Discord bot that allows users to whitelist themselves for a Minecraft server w
     *   Validates the username using Mojang API
     *   Adds the username to the whitelist via RCON
     *   Logs the registration
+*   `!remove`: Remove self from whitelist
+    *   Checks if user is in the logs then removes whitelist and role
 
 ## License
 
