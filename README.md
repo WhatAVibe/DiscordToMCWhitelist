@@ -38,10 +38,11 @@ A Discord bot that allows users to whitelist themselves for a Minecraft server w
 ## Usage
 -----
 
-1.  Create a new Discord bot and obtain a bot token
-2.  `pip install mcrcon` and `pip install discord.py`
-3.  Replace the `WHITELIST_PATH`, `LOG_PATH`, `TARGET_CHANNEL_ID`, `RCON_HOST`, `RCON_PORT`, and `RCON_PASSWORD` variables with your own values
-4.  Run the bot using `DiscordBotToWhitelist.py`
+1.  Enable rcon in server.properties and set a passowrd `enable-rcon=true` `rcon.password=secret`
+2.  Create a new Discord bot and obtain a bot token
+3.  `pip install mcrcon` and `pip install discord.py`
+4.  Replace the `WHITELIST_PATH`, `LOG_PATH`, `TARGET_CHANNEL_ID`, `RCON_HOST`, `RCON_PORT`, and `RCON_PASSWORD` variables with your own values
+5.  Run the bot using `DiscordBotToWhitelist.py`
 
 ## Commands
 ---------
