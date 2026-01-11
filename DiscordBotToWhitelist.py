@@ -15,9 +15,9 @@ TARGET_CHANNEL_ID = 123456789123456789  # The channel ID where the bot should re
 RCON_HOST = "localhost"  # Replace with your server IP (192.#.#.# for same network but different device)
 RCON_PORT = 25575  # Default RCON port (explicitly an integer)
 RCON_PASSWORD = "secret"  # Replace with your RCON password
-ROLE_ID = 1459571224568139786  # The role ID required to list and use commands in any channel (admin role)
+ROLE_ID = 1459571224568139786  # The role ID given to users after verification
 ROLE_NAME = (
-    "."  # The role name required to list and use commands in any channel (admin role)
+    "."  # The role name required to list and use commands in any channel along with !list (admin role)
 )
 
 logging.getLogger("discord").setLevel(logging.WARNING)
