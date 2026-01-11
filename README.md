@@ -2,6 +2,9 @@
 =========================
 
 A Discord bot that allows users to whitelist themselves for a Minecraft server without administrator intervention.
+![](https://cdn.discordapp.com/attachments/1053456829369290803/1459757081866404083/cUncbsGjam.gif?ex=69647039&is=69631eb9&hm=2860be04942f416386f3ebce27541116e2a596b5bf6c619e9dbc669d8ee88f7a&)
+![](https://cdn.discordapp.com/attachments/1053456829369290803/1459757595370983565/image.png?ex=696470b3&is=69631f33&hm=bf653fa45c6ac897bec3b8668099d1bff630ae3be8c5fa6b23f2cdf7fbc5a35b&)
+
 
 ## Features
 -----------
